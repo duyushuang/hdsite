@@ -9297,7 +9297,7 @@ html[data-android] .FirstTimeModal .Modal-title {
 .ColumnEnd {
     position: relative;
     display: block;
-    margin: 30px auto 80px;
+    margin: 0px auto 80px;
     text-align: center;
     color: rgba(0, 0, 0, .1)
 }
@@ -13437,4 +13437,14 @@ html[data-android] .ColumnSettings-maintitle {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     display: inline-block
+}
+
+.PageNumList {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.PageNumList li {
+    display: inline-block;
+    margin: 8px
 }
